@@ -219,7 +219,7 @@ span{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #3ca0c2; /* Azul claro */
+        border-left: 3px solid #ffffff; /* Azul claro */
     }
 }
 
