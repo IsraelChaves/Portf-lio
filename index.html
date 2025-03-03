@@ -33,11 +33,11 @@
                 Tenho experiência em edição de vídeos e automação usando BASH, além de estar constantemente aprendendo e aprimorando minhas habilidades em áreas como desenvolvimento web e outras ferramentas de tecnologia. Meu objetivo é construir projetos que unam criatividade, funcionalidade e eficiência, sempre buscando entregar resultados que surpreendam e inspirem.
                 
                 Este portfólio é um espaço para compartilhar um pouco mais sobre minhas habilidades, projetos e sonhos. Sinta-se à vontade para explorar e entrar em contato!</p>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>    
-                <a href="#"><i class="fa-brands fa-github"></i></a>    
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>    
-            </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/israel-chaves-17a9ab2b7/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>    
+                    <a href="https://github.com/IsraelChaves" target="_blank"><i class="fa-brands fa-github"></i></a>    
+                    <a href="https://www.instagram.com/seu-perfil" target="_blank"><i class="fa-brands fa-instagram"></i></a>    
+                </div>
            <a href="#" class="btn">Sobre mim</a>
         </div>
     </section>
@@ -61,5 +61,36 @@
             </div>
         </div>
     </section>
+    
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <!-- Conteúdo das habilidades -->
+    </section>
+    
+    <section id="experiencia">
+        <h2>Experiência</h2>
+        <!-- Conteúdo da experiência -->
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <!-- Formulário ou informações de contato -->
+    </section>
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/israel-chaves-17a9ab2b7/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>    
+        <a href="https://github.com/IsraelChaves" target="_blank"><i class="fa-brands fa-github"></i></a>    
+        <a href="https://www.instagram.com/seu-perfil" target="_blank"><i class="fa-brands fa-instagram"></i></a>    
+    </div>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
