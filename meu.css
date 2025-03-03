@@ -248,3 +248,46 @@ span{
         margin-top: 4rem;
     }
 }
+
+.services {
+    padding: 50px 0; /* Adiciona espaçamento acima e abaixo da seção */
+    text-align: center; /* Centraliza o texto dentro da seção */
+}
+
+.services h2 {
+    font-size: 2.5em; /* Define o tamanho da fonte do título */
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+}
+
+.service-container {
+    display: flex; /* Usa flexbox para organizar os itens */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+}
+
+.service {
+    flex: 1; /* Permite que o item cresça para ocupar o espaço disponível */
+    margin: 20px; /* Adiciona espaçamento ao redor de cada item */
+    padding: 20px; /* Adiciona espaçamento interno em cada item */
+    border: 1px solid #ddd; /* Adiciona uma borda cinza clara ao redor de cada item */
+    border-radius: 10px; /* Arredonda os cantos de cada item */
+    transition: transform 0.3s; /* Adiciona uma transição suave ao transformar o item */
+}
+
+.service i {
+    font-size: 3em; /* Define o tamanho da fonte dos ícones */
+    margin-bottom: 10px; /* Adiciona espaçamento abaixo dos ícones */
+}
+
+.service h3 {
+    font-size: 1.5em; /* Define o tamanho da fonte dos subtítulos */
+    margin-bottom: 10px; /* Adiciona espaçamento abaixo dos subtítulos */
+}
+
+.service p {
+    font-size: 1em; /* Define o tamanho da fonte dos parágrafos */
+}
+
+.service:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do item quando o mouse passa sobre ele */
+}
