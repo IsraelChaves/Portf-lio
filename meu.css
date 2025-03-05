@@ -38,7 +38,7 @@ header{
 
 .logo{
     font-size:3rem;
-    color: #00C6FF; /* Azul claro */
+    color: #00C6FF; 
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -46,7 +46,7 @@ header{
 
 .logo:hover{
     transform: scale(1.1);
-    color: #3ca0c2; /* Azul claro */
+    color: #3ca0c2; 
 }
 
 nav a{
@@ -60,8 +60,8 @@ nav a{
 
 nav a:hover,
 nav a.active{
-    color: #3ca0c2; /* Azul claro */
-    border-bottom: 3px solid #3ca0c2; /* Azul claro */
+    color: #3ca0c2; 
+    border-bottom: 3px solid #3ca0c2; 
 }
 
 @media(max-width:995px){
@@ -71,8 +71,8 @@ nav a.active{
     top: 0;
     right:0;
     width: 40%;
-    border-left: 3px solid #3ca0c2; /* Azul claro */
-    border-bottom: 3px solid #3ca0c2; /* Azul claro */
+    border-left: 3px solid #3ca0c2; 
+    border-bottom: 3px solid #3ca0c2; 
     border-top-left-radius: 2rem;
     padding: 1rem solid;
     background-color: #242424; /* Cinza escuro */
@@ -93,7 +93,7 @@ nav a:hover,
 nav a.active{
     padding: 1rem;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #3ca0c2; /* Azul claro */
+    border-bottom: 0.5rem solid #3ca0c2; 
 }
 }
 
@@ -119,7 +119,7 @@ section{
 }
 
 span{
-    color: #3ca0c2; /* Azul claro */
+    color: #3ca0c2; 
 }
 
 .home-content h3{
@@ -154,7 +154,7 @@ span{
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border:0.2rem solid #3ca0c2; /* Azul claro */
+    border:0.2rem solid #3ca0c2; 
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
@@ -165,8 +165,8 @@ span{
 .social-icons a:hover{
     color: black;
     transform: scale(1.3) translateY(-5px);
-    background-color: #3ca0c2; /* Azul claro */
-    box-shadow: 0 0 25px #3ca0c2; /* Azul claro */
+    background-color: #3ca0c2; 
+    box-shadow: 0 0 25px #3ca0c2; 
 }
 
 .btn{
@@ -175,26 +175,26 @@ span{
     background-color: black;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: #3ca0c2; /* Azul claro */
+    color: #3ca0c2; 
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #3ca0c2; /* Azul claro */
+    border: 2px solid #3ca0c2; 
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .btn:hover{
     transform: scale(1.03);
-    background-color: #3ca0c2; /* Azul claro */
+    background-color: #3ca0c2;  
     color: black;
-    box-shadow: 0 0 2px #3ca0c2; /* Azul claro */
+    box-shadow: 0 0 2px #3ca0c2; 
 }
 
 .typing-text{
     font-size: 3rem;
     font-weight: 600;
     min-width: 280px;
-    color: #e0e0e0; /* Texto cinza claro */
+    color: #e0e0e0; 
 }
 
 .typing-text span{
@@ -203,7 +203,7 @@ span{
 
 .typing-text span::before{
     content: "Gestor de Tecnologia";
-    color: #0055FF; /* Azul claro */
+    color: #0055FF; 
 }
 
 .typing-text span::after{ /*Aqui é a parte onde fica a / do gestor */
@@ -219,7 +219,7 @@ span{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #ffffff; /* Azul claro */
+        border-left: 3px solid #ffffff; 
     }
 }
 
@@ -293,55 +293,53 @@ span{
 }
 
 .habilidades {
-    padding: 50px 0; /* Adiciona espaçamento acima e abaixo da seção */
-    text-align: center; /* Centraliza o texto dentro da seção */
+    padding: 50px 0; 
+    text-align: center; 
 }
 
 .habilidades h2 {
-    font-size: 2.5em; /* Define o tamanho da fonte do título */
-    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+    font-size: 2.5em; 
+    margin-bottom: 20px;
 }
 
 .habilidades p {
-    font-size: 1.2em; /* Define o tamanho da fonte dos parágrafos */
-    margin: 0 auto; /* Centraliza o parágrafo */
-    max-width: 800px; /* Define a largura máxima do parágrafo */
+    font-size: 1.2em; 
+    margin: 0 auto; 
+    max-width: 800px; 
 }
 
 .projetos {
-    padding: 50px 0; /* Adiciona espaçamento acima e abaixo da seção */
-    text-align: center; /* Centraliza o texto dentro da seção */
+    padding: 50px 0; 
+    text-align: center; 
 }
 
 .projetos h2 {
-    font-size: 2.5em; /* Define o tamanho da fonte do título */
-    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+    font-size: 2.5em; 
+    margin-bottom: 20px;
 }
 
-/* Adicione estilos específicos para os projetos aqui */
-
 .contato {
-    padding: 50px 0; /* Adiciona espaçamento acima e abaixo da seção */
-    text-align: center; /* Centraliza o texto dentro da seção */
+    padding: 50px 0; 
+    text-align: center; 
 }
 
 .contato h2 {
-    font-size: 2.5em; /* Define o tamanho da fonte do título */
-    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
 }
 
 .contato .social-icons {
-    display: flex; /* Usa flexbox para organizar os itens */
-    justify-content: center; /* Centraliza os itens */
-    gap: 20px; /* Adiciona espaçamento entre os itens */
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
 }
 
 .contato .social-icons a {
-    font-size: 2em; /* Define o tamanho da fonte dos ícones */
-    color: #e0e0e0; /* Define a cor dos ícones */
-    transition: color 0.3s; /* Adiciona uma transição suave na cor */
+    font-size: 2em; 
+    color: #e0e0e0; 
+    transition: color 0.3s; 
 }
 
 .contato .social-icons a:hover {
-    color: #3ca0c2; /* Muda a cor dos ícones ao passar o mouse */
+    color: #3ca0c2; 
 }
