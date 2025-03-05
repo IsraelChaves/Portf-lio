@@ -291,3 +291,57 @@ span{
 .service:hover {
     transform: scale(1.05); /* Aumenta o tamanho do item quando o mouse passa sobre ele */
 }
+
+.habilidades {
+    padding: 50px 0; /* Adiciona espaçamento acima e abaixo da seção */
+    text-align: center; /* Centraliza o texto dentro da seção */
+}
+
+.habilidades h2 {
+    font-size: 2.5em; /* Define o tamanho da fonte do título */
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+}
+
+.habilidades p {
+    font-size: 1.2em; /* Define o tamanho da fonte dos parágrafos */
+    margin: 0 auto; /* Centraliza o parágrafo */
+    max-width: 800px; /* Define a largura máxima do parágrafo */
+}
+
+.projetos {
+    padding: 50px 0; /* Adiciona espaçamento acima e abaixo da seção */
+    text-align: center; /* Centraliza o texto dentro da seção */
+}
+
+.projetos h2 {
+    font-size: 2.5em; /* Define o tamanho da fonte do título */
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+}
+
+/* Adicione estilos específicos para os projetos aqui */
+
+.contato {
+    padding: 50px 0; /* Adiciona espaçamento acima e abaixo da seção */
+    text-align: center; /* Centraliza o texto dentro da seção */
+}
+
+.contato h2 {
+    font-size: 2.5em; /* Define o tamanho da fonte do título */
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+}
+
+.contato .social-icons {
+    display: flex; /* Usa flexbox para organizar os itens */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Adiciona espaçamento entre os itens */
+}
+
+.contato .social-icons a {
+    font-size: 2em; /* Define o tamanho da fonte dos ícones */
+    color: #e0e0e0; /* Define a cor dos ícones */
+    transition: color 0.3s; /* Adiciona uma transição suave na cor */
+}
+
+.contato .social-icons a:hover {
+    color: #3ca0c2; /* Muda a cor dos ícones ao passar o mouse */
+}
