@@ -216,27 +216,31 @@
         });
 
         // Header Scroll Effect
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const header = document.querySelector('header');
             header.classList.toggle('scrolled', window.scrollY > 50);
-            
+
             // Back to Top Button
             const backToTop = document.querySelector('.back-to-top');
             backToTop.classList.toggle('show', window.scrollY > 300);
 
             // Section Animation on Scroll
             document.querySelectorAll('section').forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (window.scrollY > sectionTop - window.innerHeight + sectionHeight/3) {
-                    section.classList.add('show');
+                if (section.id !== "inicio") { // Ignora a seção "Início"
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (window.scrollY > sectionTop - window.innerHeight + sectionHeight / 3) {
+                        section.classList.add('show');
+                    }
                 }
             });
         });
 
-        // Initialize sections
+        // Initialize sections (aplica "hidden" apenas a partir de "Serviços")
         document.querySelectorAll('section').forEach(section => {
-            section.classList.add('hidden');
+            if (section.id !== "inicio") { // Ignora a seção "Início"
+                section.classList.add('hidden');
+            }
         });
     </script>
 </body>

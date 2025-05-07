@@ -236,10 +236,11 @@ nav a.active {
 }
 
 @keyframes words {
-    0%, 100% { content: "Estudante de Gestão da Tecnologia"; }
-    20% { content: "Desenvolvedor Web"; }
-    40% { content: "Programador Python"; }
-    60% { content: "Desenvolvedor PHP"; }
+     0% { content: "Estudante de GTI"; }
+    15% { content: "Desenvolvedor Web"; }
+    50% { content: "Programador Python"; }
+    35% { content: "Desenvolvedor PHP"; }
+    100% { content: "Estudante de GTI"; } /* Retorna ao início */
 }
 
 @keyframes typing {
