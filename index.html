@@ -1,223 +1,170 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de Israel Chaves - Desenvolvedor Web e Gestor de TI">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap">
-    <link rel="stylesheet" href="meu.css">
-    <title>Israel Chaves | Portfólio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Israel Chaves — Desenvolvedor Full Stack, especialista em IA, automação e soluções digitais.">
+  <meta name="theme-color" content="#05070d">
+  <meta property="og:title" content="Israel Chaves | Full Stack & IA">
+  <meta property="og:description" content="Desenvolvimento, inteligência artificial e automação para transformar ideias em soluções digitais.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="meu.css">
+  <title>Israel Chaves | Full Stack & IA</title>
 </head>
 <body>
-    <header>
-        <a href="#inicio" class="logo">Israel</a>
-        <nav>
-            <a href="#inicio" class="active">Início</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
-        </nav>
-        <div class="menu-hamburguer">
-            <i class="fas fa-bars"></i>
-        </div>
-    </header>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
 
-    <section class="home" id="inicio">
-        <div class="home-img">
-            <img src="img/FotoPrincipal.jpg" alt="Israel Chaves - Desenvolvedor e Gestor de TI">
+  <header class="site-header" id="header">
+    <a href="#inicio" class="brand" aria-label="Israel Chaves — início">
+      <span class="brand-mark">IC</span>
+      <span>Israel<span class="brand-dot">.</span></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navegação principal">
+      <a href="#inicio" class="nav-link active">Início</a>
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#servicos" class="nav-link">Especialidades</a>
+      <a href="#projetos" class="nav-link">Projetos</a>
+      <a href="#habilidades" class="nav-link">Stack</a>
+      <a href="#contato" class="nav-link nav-contact">Vamos conversar <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> Desenvolvedor • IA • Automação</div>
+        <h1>Transformo ideias em <span class="gradient-text">experiências digitais.</span></h1>
+        <p class="hero-lead">Sou Israel Chaves, desenvolvedor e profissional de tecnologia focado em criar produtos web, automações e soluções com inteligência artificial.</p>
+
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">Ver meus projetos <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contato" class="btn btn-secondary">Vamos conversar</a>
         </div>
-        <div class="home-content">
-            <h1>Olá, me chamo <span>Israel</span></h1>
-            <h3 class="typing-text">sou um <span></span></h3>
-            <p>Estudante de Gestão da Tecnologia da Informação (GTI) na Universidade Uniaene e apaixonado por tecnologia, inovação e soluções que transformam ideias em realidade.</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/israel-chavess/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>    
-                <a href="https://github.com/IsraelChaves" target="_blank"><i class="fa-brands fa-github"></i></a>    
-                <a href="https://www.instagram.com/israel.chaves_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>    
-            </div>
-            <a href="#sobre" class="btn">Sobre mim</a>
+
+        <div class="hero-meta">
+          <span><i class="fa-solid fa-circle-check"></i> Desenvolvimento</span>
+          <span><i class="fa-solid fa-circle-check"></i> Inteligência Artificial</span>
+          <span><i class="fa-solid fa-circle-check"></i> Automação</span>
         </div>
+      </div>
+
+      <div class="hero-visual reveal reveal-delay" aria-label="Perfil profissional de Israel Chaves">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+        <div class="visual-glow"></div>
+        <div class="profile-frame">
+          <div class="profile-topline"><span>ISRAEL CHAVES</span><span>01 / 01</span></div>
+          <img src="img/FotoPrincipal.jpg" alt="Israel Chaves">
+          <div class="profile-bottomline"><span>FULL STACK & AI</span><span class="status"><i></i> ONLINE</span></div>
+        </div>
+        <div class="floating-card card-code"><i class="fa-solid fa-code"></i><span>Clean<br>Code</span></div>
+        <div class="floating-card card-ai"><i class="fa-solid fa-wand-magic-sparkles"></i><span>AI<br>Solutions</span></div>
+        <div class="floating-card card-web"><i class="fa-solid fa-globe"></i><span>Web<br>Experiences</span></div>
+      </div>
     </section>
 
-    <section class="services" id="servicos">
-        <h2>Meus Serviços</h2>
-        <div class="service-container">
-            <div class="service">
-                <i class="fa-solid fa-code"></i>
-                <h3>Desenvolvimento Web</h3>
-                <p>Criação de sites e aplicações web responsivas e funcionais.</p>
-            </div>
-            <div class="service">
-                <i class="fa-solid fa-robot"></i>
-                <h3>Automação</h3>
-                <p>Automatização de tarefas e processos usando scripts e ferramentas.</p>
-            </div>
-            <div class="service">
-                <i class="fa-solid fa-video"></i>
-                <h3>Edição de Vídeos</h3>
-                <p>Produção e edição de vídeos profissionais para diversas finalidades.</p>
-            </div>
-            <div class="service">
-                <i class="fa-brands fa-python"></i>
-                <h3>Desenvolvimento Python</h3>
-                <p>Automação, scripts e desenvolvimento back-end com Python.</p>
-            </div>
-            
-            <div class="service">
-                <i class="fa-brands fa-php"></i>
-                <h3>Desenvolvimento PHP</h3>
-                <p>Criação de sistemas web e integrações com bancos de dados.</p>
-            </div>
+    <section class="intro section" id="sobre">
+      <div class="section-kicker reveal">01 — SOBRE MIM</div>
+      <div class="intro-grid">
+        <div class="reveal">
+          <h2>Tecnologia não é apenas o que eu faço.<br><span class="gradient-text">É como eu penso.</span></h2>
         </div>
-    </section>
-    
-    <section class="habilidades" id="habilidades">
-        <h2>Habilidades</h2>
-        <div class="skills-container">
-            <div class="skill-category">
-                <h3>Linguagens de Programação</h3>
-                <div class="skill">
-                    <span>HTML/CSS</span>
-                </div>
-                <div class="skill">
-                    <span>JavaScript</span>
-                </div>
-                <div class="skill">
-                    <span>Python</span>
-                </div>
-                <div class="skill">
-                    <span>PHP</span>
-                </div>
-                <div class="skill">
-                    <span>C/C++</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h3>Outras Habilidades</h3>
-                <div class="skill">
-                    <span>Bash Scripting</span>
-                </div>
-                <div class="skill">
-                    <span>Edição de Vídeo</span>
-                </div>
-            </div>
+        <div class="intro-copy reveal reveal-delay">
+          <p>Minha trajetória une Gestão da Tecnologia da Informação, desenvolvimento de software, criação digital e inteligência artificial.</p>
+          <p>Gosto de entender um problema, encontrar uma solução simples e transformar essa solução em algo funcional, bonito e útil.</p>
+          <div class="mini-stats">
+            <div><strong>GTI</strong><span>Formação em tecnologia</span></div>
+            <div><strong>IA</strong><span>Criação e automação</span></div>
+            <div><strong>WEB</strong><span>Produtos digitais</span></div>
+          </div>
         </div>
-
-    </section>
-    
-    <section class="projetos" id="projetos">
-        <h2>Projetos</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="img/xmillions.png" alt="Projeto Web">
-                </div>
-                <div class="project-info">
-                    <h3>Projeto Xmillions Responsivo</h3>
-                    <p>Site desenvolvido para uma STARTUP</p>
-                    <a href="https://xmillions.vercel.app/" class="btn">Ver Detalhes</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="img/sitezin.png" alt="Projeto Web">
-                </div>
-                <div class="project-info">
-                    <h3>Website Responsivo</h3>
-                    <p>Site desenvolvido com HTML, CSS e JavaScript</p>
-                    <a href="https://israelchaves.github.io/Sitezin/" class="btn">Ver Detalhes</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="img/projeto DISC.png" alt="Script de Automação">
-                </div>
-                <div class="project-info">
-                    <h3>Sistema de Análise Comportamental DISC Automatizado</h3>
-                    <p>Ferramenta de análise DISC automatizada em JavaScript/TypeScript que transforma respostas de questionário em perfis comportamentais com relatórios visuais.</p>
-                    <a href="#" class="btn">Ver Detalhes</a>
-                </div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="img/php-project.png" alt="Projeto em PHP">
-                </div>
-                <div class="project-info">
-                    <h3>Sistema Web com PHP</h3>
-                    <p>Plataforma de gerenciamento desenvolvida com PHP e MySQL.</p>
-                    <a href="https://suacompraconsciente.gtifadba.com.br/" class="btn">Ver Detalhes</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="contato" id="contato">
-        <h2>Contato</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Seu Nome" required>
-            <input type="email" placeholder="Seu Email" required>
-            <textarea placeholder="Sua Mensagem" required></textarea>
-            <button type="submit" class="btn">Enviar Mensagem</button>
-        </form>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/israel-chavess/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>    
-            <a href="https://github.com/IsraelChaves" target="_blank"><i class="fa-brands fa-github"></i></a>    
-            <a href="https://www.instagram.com/seu-perfil" target="_blank"><i class="fa-brands fa-instagram"></i></a>    
-        </div>
+      </div>
     </section>
 
-    <footer>
-        <p>© 2024 Israel Chaves. Todos os direitos reservados.</p>
-    </footer>
+    <section class="services section" id="servicos">
+      <div class="section-heading reveal">
+        <div><div class="section-kicker">02 — ESPECIALIDADES</div><h2>O que eu <span class="gradient-text">construo.</span></h2></div>
+        <p>Da interface ao back-end, da automação à IA: tecnologia aplicada para criar soluções que fazem sentido.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal"><div class="service-number">01</div><div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div><h3>Desenvolvimento Web</h3><p>Sites e aplicações responsivas, modernas e pensadas para entregar uma experiência consistente em qualquer tela.</p><div class="service-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="service-card reveal reveal-delay"><div class="service-number">02</div><div class="service-icon"><i class="fa-solid fa-brain"></i></div><h3>Inteligência Artificial</h3><p>Uso de IA generativa para conteúdo, produtos, agentes e fluxos que tornam processos mais inteligentes.</p><div class="service-tags"><span>IA</span><span>Prompts</span><span>Agentes</span></div></article>
+        <article class="service-card reveal"><div class="service-number">03</div><div class="service-icon"><i class="fa-solid fa-gears"></i></div><h3>Automação</h3><p>Integração de ferramentas e automação de tarefas para reduzir trabalho manual e acelerar operações.</p><div class="service-tags"><span>n8n</span><span>APIs</span><span>Workflows</span></div></article>
+        <article class="service-card reveal reveal-delay"><div class="service-number">04</div><div class="service-icon"><i class="fa-solid fa-server"></i></div><h3>Back-end & Sistemas</h3><p>Desenvolvimento de sistemas, lógica de negócio, banco de dados e integrações para aplicações web.</p><div class="service-tags"><span>PHP</span><span>Python</span><span>MySQL</span></div></article>
+      </div>
+    </section>
 
-    <a href="#inicio" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    <section class="showcase section" id="projetos">
+      <div class="section-heading reveal">
+        <div><div class="section-kicker">03 — PROJETOS</div><h2>Projetos que <span class="gradient-text">saíram do papel.</span></h2></div>
+        <p>Uma seleção de trabalhos que representam minha evolução em desenvolvimento, automação e experiências digitais.</p>
+      </div>
 
-    <script>
-        // Menu Hamburguer
-        document.querySelector('.menu-hamburguer').addEventListener('click', function() {
-            document.querySelector('nav').classList.toggle('active');
-        });
+      <div class="project-list">
+        <article class="project-card project-featured reveal">
+          <div class="project-image"><img src="img/xmillions.png" alt="Projeto Xmillions"><span class="project-badge">01 / WEB</span></div>
+          <div class="project-content"><div class="project-label">Startup • Desenvolvimento Web</div><h3>Xmillions</h3><p>Website responsivo desenvolvido para uma startup, com foco em apresentação de produto e experiência digital.</p><div class="project-footer"><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="https://xmillions.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">Visitar projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div>
+        </article>
 
-        // Scroll Suave
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
+        <article class="project-card reveal reveal-delay">
+          <div class="project-image"><img src="img/projeto DISC.png" alt="Sistema de análise comportamental DISC"><span class="project-badge">02 / AI & DATA</span></div>
+          <div class="project-content"><div class="project-label">Automação • JavaScript / TypeScript</div><h3>Sistema DISC</h3><p>Ferramenta automatizada que transforma respostas de questionário em perfis comportamentais e relatórios visuais.</p><div class="project-footer"><div class="project-tech"><span>JavaScript</span><span>TypeScript</span></div><span class="project-link muted">Case em evolução</span></div></div>
+        </article>
 
-        // Header Scroll Effect
-        window.addEventListener('scroll', function () {
-            const header = document.querySelector('header');
-            header.classList.toggle('scrolled', window.scrollY > 50);
+        <article class="project-card reveal">
+          <div class="project-image"><img src="img/php-project.png" alt="Sistema web com PHP"><span class="project-badge">03 / BACK-END</span></div>
+          <div class="project-content"><div class="project-label">Sistema Web • PHP / MySQL</div><h3>Compra Consciente</h3><p>Plataforma de gerenciamento desenvolvida com PHP e MySQL, conectando interface, regras de negócio e dados.</p><div class="project-footer"><div class="project-tech"><span>PHP</span><span>MySQL</span></div><a href="https://suacompraconsciente.gtifadba.com.br/" target="_blank" rel="noopener noreferrer" class="project-link">Visitar projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div>
+        </article>
 
-            // Back to Top Button
-            const backToTop = document.querySelector('.back-to-top');
-            backToTop.classList.toggle('show', window.scrollY > 300);
+        <article class="project-card reveal reveal-delay">
+          <div class="project-image"><img src="img/sitezin.png" alt="Website responsivo"><span class="project-badge">04 / FRONT-END</span></div>
+          <div class="project-content"><div class="project-label">Front-end • Experiência Web</div><h3>Website Responsivo</h3><p>Projeto criado com HTML, CSS e JavaScript para explorar estrutura, responsividade e interações no front-end.</p><div class="project-footer"><div class="project-tech"><span>HTML</span><span>CSS</span><span>JS</span></div><a href="https://israelchaves.github.io/Sitezin/" target="_blank" rel="noopener noreferrer" class="project-link">Visitar projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div>
+        </article>
+      </div>
+    </section>
 
-            // Section Animation on Scroll
-            document.querySelectorAll('section').forEach(section => {
-                if (section.id !== "inicio") { // Ignora a seção "Início"
-                    const sectionTop = section.offsetTop;
-                    const sectionHeight = section.clientHeight;
-                    if (window.scrollY > sectionTop - window.innerHeight + sectionHeight / 3) {
-                        section.classList.add('show');
-                    }
-                }
-            });
-        });
+    <section class="stack section" id="habilidades">
+      <div class="section-kicker reveal">04 — STACK</div>
+      <div class="stack-header reveal"><h2>Ferramentas para <span class="gradient-text">tirar ideias do papel.</span></h2><p>Uma base multidisciplinar para trabalhar no front-end, back-end, dados, automação e inteligência artificial.</p></div>
+      <div class="stack-cloud reveal">
+        <span class="stack-item highlight"><i class="fa-brands fa-js"></i> JavaScript</span><span class="stack-item"><i class="fa-brands fa-html5"></i> HTML5</span><span class="stack-item"><i class="fa-brands fa-css3-alt"></i> CSS3</span><span class="stack-item highlight"><i class="fa-brands fa-python"></i> Python</span><span class="stack-item"><i class="fa-brands fa-php"></i> PHP</span><span class="stack-item"><i class="fa-solid fa-database"></i> MySQL</span><span class="stack-item"><i class="fa-brands fa-git-alt"></i> Git</span><span class="stack-item"><i class="fa-brands fa-github"></i> GitHub</span><span class="stack-item highlight"><i class="fa-solid fa-robot"></i> IA Generativa</span><span class="stack-item"><i class="fa-solid fa-diagram-project"></i> n8n</span><span class="stack-item"><i class="fa-brands fa-docker"></i> Docker</span><span class="stack-item"><i class="fa-solid fa-terminal"></i> Bash</span><span class="stack-item"><i class="fa-solid fa-chart-line"></i> Power BI</span><span class="stack-item"><i class="fa-solid fa-cloud"></i> AWS</span>
+      </div>
+    </section>
 
-        // Initialize sections (aplica "hidden" apenas a partir de "Serviços")
-        document.querySelectorAll('section').forEach(section => {
-            if (section.id !== "inicio") { // Ignora a seção "Início"
-                section.classList.add('hidden');
-            }
-        });
-    </script>
+    <section class="process section">
+      <div class="section-heading reveal"><div><div class="section-kicker">05 — PROCESSO</div><h2>Como eu <span class="gradient-text">trabalho.</span></h2></div><p>Um processo simples para transformar uma necessidade em uma solução digital funcional.</p></div>
+      <div class="process-grid">
+        <div class="process-item reveal"><span>01</span><i class="fa-solid fa-lightbulb"></i><h3>Entender</h3><p>Descubro o problema, o objetivo e o que realmente precisa ser resolvido.</p></div>
+        <div class="process-item reveal reveal-delay"><span>02</span><i class="fa-solid fa-compass-drafting"></i><h3>Planejar</h3><p>Defino estrutura, tecnologia e fluxo antes de transformar a ideia em código.</p></div>
+        <div class="process-item reveal"><span>03</span><i class="fa-solid fa-code"></i><h3>Construir</h3><p>Desenvolvo, testo e ajusto a solução com foco em qualidade e experiência.</p></div>
+        <div class="process-item reveal reveal-delay"><span>04</span><i class="fa-solid fa-rocket"></i><h3>Entregar</h3><p>Coloco o projeto para funcionar e deixo a base preparada para evoluir.</p></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div class="contact-card reveal">
+        <div class="contact-glow"></div>
+        <div class="section-kicker">06 — CONTATO</div>
+        <h2>Tem uma ideia?<br><span class="gradient-text">Vamos transformar em projeto.</span></h2>
+        <p>Se você procura alguém para desenvolver, automatizar ou explorar uma solução com IA, vamos conversar.</p>
+        <div class="contact-actions"><a href="https://www.linkedin.com/in/israel-chavess/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Falar comigo no LinkedIn <i class="fa-brands fa-linkedin-in"></i></a><a href="https://github.com/IsraelChaves" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub <i class="fa-brands fa-github"></i></a></div>
+        <div class="contact-socials"><a href="https://www.linkedin.com/in/israel-chavess/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="https://github.com/IsraelChaves" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="https://www.instagram.com/israel.chaves_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="footer-brand"><span class="brand-mark">IC</span><strong>Israel Chaves</strong></div><p>Desenvolvimento • IA • Automação</p><span>© <span id="year"></span> Israel Chaves.</span></footer>
+  <a href="#inicio" class="back-top" id="backTop" aria-label="Voltar ao topo"><i class="fa-solid fa-arrow-up"></i></a>
+  <script src="meu.js"></script>
 </body>
 </html>
